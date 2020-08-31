@@ -20,7 +20,7 @@ export default class CreateUsers1598815815734 implements MigrationInterface {
           },
           {
             name: 'email',
-            type: 'timestamp with time zone',
+            type: 'varchar',
             isNullable: false,
             isUnique: true,
           },
