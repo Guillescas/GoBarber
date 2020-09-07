@@ -30,6 +30,8 @@
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
+      "react/jsx-props-no-spreading": "off",
+      "react/prop-types": "off",
       "no-use-before-define": "off",
       "react/jsx-one-expression-per-line": "off",
       "react-hooks/exhaustive-deps": "warn",
