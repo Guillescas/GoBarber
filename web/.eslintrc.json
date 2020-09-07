@@ -30,6 +30,7 @@
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
+      "no-use-before-define": "off",
       "react/jsx-one-expression-per-line": "off",
       "react-hooks/exhaustive-deps": "warn",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
