@@ -30,14 +30,14 @@ export const Content = styled.div`
     }
 
     a {
-      color: #f4ede8;
+      color: #fff;
       display: block;
       margin-top: 24px;
       text-decoration: none;
       transition: color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, "#f4ede8")};
+        color: ${shade(0.2, "#fff")};
       }
     }
   }
