@@ -39,7 +39,7 @@ describe('AuthenticateUser', () => {
   });
 
   it('Should not be able to authenticate with non existing user', async () => {
-    expect(
+    await expect(
       authenticateUser.execute({
         email: 'john.doe@gmail.com',
         password: '123123',
@@ -54,10 +54,10 @@ describe('AuthenticateUser', () => {
       password: '123123',
     });
 
-    expect(
+    await expect(
       authenticateUser.execute({
         email: 'john.doe@gmail.com',
-        password: '123123',
+        password: '12312',
       }),
     ).rejects.toBeInstanceOf(AppError);
   });
